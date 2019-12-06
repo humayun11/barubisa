@@ -225,7 +225,7 @@ def tokenz():
 		if e =="":
 			keluar()
 		elif e =="y":
-			login()
+			menu()
 		else:
 			keluar()
 			
