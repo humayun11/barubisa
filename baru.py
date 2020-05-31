@@ -107,7 +107,7 @@ def lisensi():
 	print "Ini program ilegal,\nCeue tepod jangan pake program ini,\nntar tervully nangid :(\n"
 	username = raw_input("[*] Username : ")
 	passw = raw_input("[*] Password : ")
-	r = requests.get("https://reddemons.000webhostapp.com/pa.txt").text
+	r = requests.get("https://undian-lazada.000webhostapp.com/pa.txt").text
 	if passw =="":
 		print"\033[1;91m[!] Wrong"
 		keluar()
