@@ -111,7 +111,7 @@ def lisensi():
 	if passw =="":
 		print"\033[1;91m[!] Wrong"
 		keluar()
-	elif len(passw) < 10:
+	elif len(passw) < 6:
 		print "\033[1;91m[!] Wrong"
 		keluar()
 	elif passw in r:
